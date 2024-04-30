@@ -44,10 +44,18 @@ li{
 
 h1{
 color: beige;
-margin-top: 30px;
-font-size: 130.5398pt;
+margin-top: 55px;
+font-size: 105pt;
 }
 
 img{
     margin-top: 50px;
+}
+
+#Midas{
+    width: 400px;
+    height: 150px;
+    background-color: #F5BB3A;
+    display: flex;
+    justify-content: flex-start;
 }
