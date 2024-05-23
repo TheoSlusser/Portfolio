@@ -1,6 +1,14 @@
 body {
     background-color: #FDF7E1;
+}
 
+#maincontainer {
+    height: 2150px;
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 ul{
@@ -42,20 +50,13 @@ li{
    margin-right: none;
 }
 
-#maincontainer {
-    height: 2000px;
-    width: 1000px;
-    background-color: white;
-    position: absolute;
-    left: 25%;
-    right: 50%;
-}
-
 #aboutme {
     background-color: #FDF7E1;
     width: 550px;
-    height: 300px;
+    height: 270px;
     margin-left: 60px;
+    padding-left: 5px;
+    margin-top: 60px;
 }
 
 h1 {
@@ -64,12 +65,11 @@ h1 {
     color: #FDF7E1;
 }
 
-img {
+.logo {
     margin-top: 24px;
 }
 
 h2 {
-    margin-top: 60px;
     display: flex;
     justify-content: center;
     font-size: 35pt;
@@ -90,7 +90,7 @@ p {
 
 #education {
     background-color: #FDF7E1;
-    height: 270px;
+    height: 350px;
     width: 880px;
     margin-left: 60px;
 }
@@ -115,43 +115,52 @@ p {
     height: 155px;
     width: 880px;
     margin-left: 60px;
+    top: 20px;
 }
 
 #midas {
     background-color: #FDF7E1;
     width: 600px;
-    height: 200px;
+    height: 280px;
     margin-left: 60px;
 }
 
 #coccoon {
     background-color: #FDF7E1;
     width: 600px;
-    height: 200px;
+    height: 280px;
     margin-left: 340px;
     margin-top: 100px;
 }
 
-#yay {
+#contact {
     background-color: #FDF7E1;
-    width: 600px;
-    height: 200px;
+    height: 155px;
+    width: 880px;
     margin-left: 60px;
-    margin-top: 100px;
 }
 
-#ttb {
-    background-color: #FDF7E1;
-    width: 600px;
-    height: 200px;
-    margin-left: 340px;
-    margin-top: 100px;
+.quinn {
+    margin-left: 60px;
+    margin-top: 60px;
 }
 
-#onemore {
-    background-color: #FDF7E1;
-    width: 600px;
-    height: 200px;
+.ocean {
+    margin-left: 436px;
+    margin-top: 60px;
+}
+
+.flowers {
     margin-left: 60px;
-    margin-top: 100px;
+    margin-top: 60px;
+}
+
+#melol {
+    display: flex;
+    flex-direction: row;
+}
+
+.me {
+    margin-left: 127.499955px;
+    margin-top: 60px;
 }
