@@ -2,13 +2,42 @@ body {
     background-color: #FDF7E1;
 }
 
+#centercontent {
+    height: 2230px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
 #maincontainer {
+    height: 2230px;
+    width: 1000px;
+    background-color: white;
+    justify-content: center;
+}
+
+#maincontainerthree {
+    height: 2300px;
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#maincontainertwo {
     height: 2150px;
     width: 1000px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-content: center;
+}
+
+#maincontainerfour {
+    height: 800px;
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 ul{
@@ -19,22 +48,19 @@ ul{
    list-style-type: none;
    margin: 0px;
    padding: 7px;
-   width: 100%;
+   width: auto;
    height: 42.22px;
    background-color: #FAE240;
    flex-direction: row;
-}
-
-ul{
+   justify-content: space-around;
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
 }
 
 li{
    font-size: 27pt;
    font-family: Arial, Helvetica, sans-serif;
-   color: black;
+   color: white;
 }
 
 #banner{
@@ -65,15 +91,15 @@ h1 {
     color: #FDF7E1;
 }
 
-.logo {
-    margin-top: 24px;
-}
-
 h2 {
     display: flex;
     justify-content: center;
     font-size: 35pt;
     background-color: #FAE240;
+}
+
+.logo {
+    margin-top: 60px;
 }
 
 h3 {
@@ -93,29 +119,32 @@ p {
     height: 350px;
     width: 880px;
     margin-left: 60px;
+    margin-top: 60px;
 }
 
 #skills {
     background-color: #FDF7E1;
     width: 250px;
-    height: 500px;
+    height: 550px;
     margin-left: 690px;
     margin-right: 60px;
+    margin-top: 60px;
 }
 
 #languages {
     background-color: #FDF7E1;
     width: 250px;
-    height: 200px;
+    height: 240px;
     margin-left: 690px;
+    margin-top: 60px;
 }
 
 #accomplishments {
     background-color: #FDF7E1;
-    height: 155px;
+    height: 200px;
     width: 880px;
     margin-left: 60px;
-    top: 20px;
+    margin-top: 60px;
 }
 
 #midas {
@@ -123,6 +152,7 @@ p {
     width: 600px;
     height: 280px;
     margin-left: 60px;
+    margin-top: 60px;
 }
 
 #coccoon {
@@ -135,9 +165,10 @@ p {
 
 #contact {
     background-color: #FDF7E1;
-    height: 155px;
+    height: 200px;
     width: 880px;
     margin-left: 60px;
+    margin-top: 60px;
 }
 
 .quinn {
@@ -163,4 +194,30 @@ p {
 .me {
     margin-left: 127.499955px;
     margin-top: 60px;
+}
+
+#quinndescription {
+    height: 50px;
+    width: 376px;
+    background-color: #FDF7E1;
+}
+
+#oceandescription {
+    height: 50px;
+    width: 376px;
+    background-color: #FDF7E1;
+}
+
+#flowersdescription {
+    height: 50px;
+    width: 376px;
+    background-color: #FDF7E1;
+}
+
+.nav {
+    color: white
+}
+
+.nav:hover {
+    color: #F5BB3A;
 }
